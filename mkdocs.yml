@@ -2,13 +2,18 @@ site_name: Lepsta Docs
 
 # Page tree
 nav:
-  - Home: index.md
-  - How Lepsta works: pages/lepsta/how-lepsta-works.md
+  - Home:
+    - index.md
+    - How Lepsta works: pages/lepsta/how-lepsta-works.md
   - Getting started:
     - Setup: pages/setup.md
     - Your first repository: pages/quick-start/your-first-repository.md
+    - How streams work: pages/quick-start/how-streams-works.md
   - Guides:
     - Create a branch: pages/guides/create-a-branch.md
+    - Create a workspace: pages/guides/create-a-workspace.md
+    - Manage Repositories: pages/guides/manage-repositories.md
+    - Manage Streams: pages/guides/manage-streams.md
   - Uju:
     - What is Uju?: pages/uju/what-is-uju.md
     - CLI: 
@@ -43,6 +48,7 @@ nav:
       - This repo is in an inconsistent state: pages/issues/error-this-repo-is-in-an-inconsistent-state.md
       - Changes not showing on the platform: pages/issues/error-changes-not-showing-on-the-platform.md
       - Too many open files: pages/issues/error-too-many-open-files.md
+      - Windows Firewall: pages/issues/windwos-firewall.md
   - Changelog:
     - Changelog: pages/changelog
 
@@ -50,7 +56,9 @@ theme:
   name: material
   custom_dir: overrides
   features:
+    - content.tabs.link
     - navigation.tabs
+    - navigation.instant
   palette:
     scheme: preference
 extra:
@@ -59,6 +67,8 @@ extra:
       link: https://twitter.com/_lepsta
     - icon: fontawesome/brands/facebook
       link: https://facebook.com/lepsta
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/company/lepsta
 extra_css:
   - stylesheets/extra.css
 google_analytics:

@@ -25,6 +25,13 @@ mkdocs serve
 ```
 The site will run on `http://120.0.0.1:8000`.
 
+## INSTALLATION ON MAC
+To run..
+Run `python3 -m mkdocs serve`
+
+Installating on Mac and still facing challenges, visit this iste for help;
+[https://suedbroecker.net/2021/01/25/how-to-install-mkdocs-on-mac-and-setup-the-integration-to-github-pages/]
+
 
 ## Running in Docker
 This is the easiest and probably most convenient way to run this projects. To use Docker, you first need to install it. You can follow these guides to do this: [https://docs.docker.com/engine/install/](https://docs.docker.com/engine/install/).

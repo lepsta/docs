@@ -20,4 +20,8 @@ To use Lepsta, you will need to [create an account](https://lepsta.tech/auth/sig
 ### Uju (server)
 Uju is also used on our servers to host and manage Lepsta repositories. The Platform provisions repositories using the server version of Uju that sits in our infrastructure. These Uju instances are really what makes it possible to create a "always-on" repository network to allow everything to happen near real-time.
 
-## How it all comes togeter
+## How it all comes together
+
+Once you have successfully installed Uju on your machine, you will be required to login using the credentials you used when creating your profile on the Platform(app.lepsta.com). This will establish a link between your Uju client and the Platform.
+
+At this point you can start making changes to your repository and you will notice your changes automatically syncing to the Platform. No "adding", "pulling", "pushing" commands required; Uju takes care of everything so that you can focus on writing awesome code.

@@ -1,6 +1,8 @@
 # Welcome to Lepsta
 
-Lepsta is a software development platform that helps developers produce high-quality software, fast. If you are looking for technical documentation, then you are in the right place. If you prefer something less technical, please take a look at [our blog](https://blog.lepsta.tech) instead.
+Lepsta is a software development platform that helps developers produce high-quality software, fast  by providing automation, reduced feedback look and visibility. This documentation, covers the technical aspects of how to use the Lepsta Platform and Uju, the automatic version control too. 
+
+If you prefer something less technical, please take a look at [our blog](https://blog.lepsta.tech) instead.
 
 !!! tip "Tip"
     If you already know what you are looking, please use the search feature on the top lefthand corner of the screen. 
@@ -9,8 +11,9 @@ Lepsta is a software development platform that helps developers produce high-qua
 ## Main topics
 
  - [How Lepsta works](/pages/lepsta/how-lepsta-works)
- - Try Lepsta for the first time
- - Use Lepsta on existing Git repositories
+ - [Getting started](/pages/setup)
+ - [Quick guides](/pages/guides/create-a-branch)
+ - [Known issues](/pages/issues/error-this-repo-is-in-an-inconsistent-state/)
 
 ## Development goals
 
