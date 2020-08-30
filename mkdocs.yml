@@ -1,4 +1,4 @@
-site_name: Lepsta Documentation
+site_name: Lepsta Docs
 nav:
   - Home: index.md
   - How Lepsta works: pages/lepsta/how-lepsta-works.md
@@ -25,9 +25,12 @@ extra:
   social:
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/_lepsta
+    - icon: fontawesome/brands/facebook
+      link: https://facebook.com/lepsta
 extra_css:
   - stylesheets/extra.css
 markdown_extensions:
   - admonition
   - pymdownx.tasklist:
       custom_checkbox: true
+copyright: Copyright &copy; 2020 - 2025. Lepsta Inc. & Lepsta (Pty) Ltd.
