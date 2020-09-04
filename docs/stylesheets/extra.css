@@ -4,9 +4,9 @@
     --md-primary-fg-color--dark:  #1f2b47;
 }
 
-.md-header {
+/* .md-header {
     /* border-bottom: 2px solid #31aa98; */
-}
+} */
 
 .md-tabs {
     color: var(--md-primary-bg-color);

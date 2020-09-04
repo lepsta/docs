@@ -31,6 +31,12 @@ extra_css:
   - stylesheets/extra.css
 markdown_extensions:
   - admonition
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.mark
+  - pymdownx.snippets
+  - pymdownx.betterem:
+      smart_enable: all
   - pymdownx.tasklist:
       custom_checkbox: true
 copyright: Copyright &copy; 2020 - 2025. Lepsta Inc. & Lepsta (Pty) Ltd.
