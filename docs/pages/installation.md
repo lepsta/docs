@@ -9,7 +9,7 @@ To start working with lepsta, you need to have the following system requirements
     - 2 GHz dual core processor.
     - 4 GB RAM (system memory).
     
-    You can install Uju by running on of these commands.
+    You can install Uju by running on these commands.
     ```
       curl https://testing.lepsta.tech/get | sh
     ```
@@ -24,7 +24,7 @@ To start working with lepsta, you need to have the following system requirements
     - 2 GHz dual core processor.
     - 4 GB RAM (system memory).
     
-    You can install Uju by running on of these commands.
+    You can install Uju by running on these commands.
 
     ``` 
       curl https://testing.lepsta.tech/get | sh
