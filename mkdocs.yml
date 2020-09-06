@@ -56,6 +56,9 @@ extra:
       link: https://facebook.com/lepsta
 extra_css:
   - stylesheets/extra.css
+google_analytics:
+  - UA-49518961-4
+  - auto
 markdown_extensions:
   - meta
   - toc:
