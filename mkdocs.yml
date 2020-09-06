@@ -3,8 +3,7 @@ nav:
   - Home: index.md
   - How Lepsta works: pages/lepsta/how-lepsta-works.md
   - Getting started:
-    - Installation: pages/installation.md
-  - Quick start:
+    - Setup: pages/setup.md
     - Your first repository: pages/quick-start/your-first-repository.md
   - Guides:
     - Create a branch: pages/guides/create-a-branch.md

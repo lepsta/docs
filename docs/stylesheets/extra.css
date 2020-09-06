@@ -2,6 +2,7 @@
     --md-primary-fg-color:        #233150;
     --md-primary-fg-color--light: #31aa98;
     --md-primary-fg-color--dark:  #1f2b47;
+    --md-accent-fg-color: #31aa98;
 }
 
 /* .md-header {
@@ -11,4 +12,8 @@
 .md-tabs {
     color: var(--md-primary-bg-color);
     background-color: var(--md-primary-fg-color--dark);
+}
+
+.md-content img {
+    border-radius: 4px;
 }

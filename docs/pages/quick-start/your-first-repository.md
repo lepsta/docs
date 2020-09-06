@@ -1,14 +1,33 @@
-## Signing up 
-
-To create a new account, head over to ==https://lepsta.tech/auth/signup.== All you need is an email address. Alternatively, you can use your Github or Bitbucket account to sign up.
+!!! info "Is your setup running?"
+    You must have gone through setup to create your first repository.
 
 ## Create your first repository
-Create a brand new repository hosted on Lepsta.
+To create your first repository, you need to set it up from the <a href="https://lepsta.tech/a/new-repo" target="_blank">Lepsta Platform</a>. Lepsta allows you to either create a brand new repository, or Import (link) an existing Git repository.
 
-![alt-text](/assets/images/no-repos-page.png)
+=== "Brand new repo"
+    If you chose this option, your repository will be created on the Lepsta Platform, and will not be linked with an existing repository.
 
+=== "Import from GitHub"
+    This option will allow you to create a repository as a mirror of an existing Git repository hosted on Github. This means that the two repositories will become linked and changes will be synced between the two of them.
 
-## Import your first repository
-Import an existing repository hosted on Github or Bitbucket.
+=== "Import from Bitbucket"
+    This option will allow you to create a repository as a mirror of an existing Git repository hosted on Bitbucket. This means that the two repositories will become linked and changes will be synced between the two of them.
 
-![alt-text](/assets/images/import-repo.png)
+![Create a new repository on the Lepsta Platform](/assets/images/new-repo-screen.jpg)
+
+## Download (Mount) your first repository
+After creating your repository on the platform, you can use Uju to mount it on your development computer so that you can start contributing changes to it. To do this, you can run the following command:
+
+```
+uju down <yourusername>/<reponame> <localpath>
+```
+
+!!! tip "Tip"
+    You can get the "correct" command from the platform after creating your repository. See the example below:
+
+![](/assets/images/download-instructions.png)
+
+Once the repository is available on your development computer, you can open it using a code editor of your choice and start working.
+
+!!! failure "Did any of these steps fail?"
+    Just in case some of these steps did not go according to documentation, consider making a search on the top bar to check if the issue and solution are documented.
