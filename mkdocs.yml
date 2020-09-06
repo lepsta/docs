@@ -9,6 +9,34 @@ nav:
     - Create a branch: pages/guides/create-a-branch.md
   - Uju:
     - What is Uju?: pages/uju/what-is-uju.md
+    - CLI: 
+      - uju: pages/uju/cli/uju.md
+      - uju apply: pages/uju/cli/uju_apply.md
+      - uju cat: pages/uju/cli/uju_cat.md
+      - uju changes: pages/uju/cli/uju_changes.md
+      - uju commit: pages/uju/cli/uju_commit.md
+      - uju config: pages/uju/cli/uju_config.md
+      - uju diff: pages/uju/cli/uju_diff.md
+      - uju discard: pages/uju/cli/uju_discard.md
+      - uju download: pages/uju/cli/uju_download.md
+      - uju export: pages/uju/cli/uju_export.md
+      - uju init: pages/uju/cli/uju_init.md
+      - uju log: pages/uju/cli/uju_log.md
+      - uju login: pages/uju/cli/uju_login.md
+      - uju logout: pages/uju/cli/uju_logout.md
+      - uju ls: pages/uju/cli/uju_ls.md
+      - uju merge: pages/uju/cli/uju_merge.md
+      - uju repo: pages/uju/cli/uju_repo.md
+      - uju repos: pages/uju/cli/uju_repos.md
+      - uju rm: pages/uju/cli/uju_rm.md
+      - uju state: pages/uju/cli/uju_state.md
+      - uju states: pages/uju/cli/uju_states.md
+      - uju stats: pages/uju/cli/uju_stats.md
+      - uju switch: pages/uju/cli/uju_switch.md
+      - uju system: pages/uju/cli/uju_system.md
+      - uju token: pages/uju/cli/uju_token.md
+      - uju update: pages/uju/cli/uju_update.md
+      - uju validate: pages/uju/cli/uju_validate.md
   - Known issues:
     - Uju is not running: pages/issues/uju-is-not-running.md
   - Changelog:
@@ -29,6 +57,9 @@ extra:
 extra_css:
   - stylesheets/extra.css
 markdown_extensions:
+  - meta
+  - toc:
+      permalink: true
   - admonition
   - pymdownx.superfences
   - pymdownx.tabbed
