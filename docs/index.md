@@ -1,6 +1,6 @@
 # Welcome to Lepsta
 
-Lepsta is a software development platform that helps developers produce high-quality software, fast. If you are looking for technical documentation, they you are in the right place. If you prefer something less technical, please take a look at [our blog](https://blog.lepsta.tech) instead.
+Lepsta is a software development platform that helps developers produce high-quality software, fast. If you are looking for technical documentation, then you are in the right place. If you prefer something less technical, please take a look at [our blog](https://blog.lepsta.tech) instead.
 
 !!! tip "Tip"
     If you already know what you are looking, please use the search feature on the top lefthand corner of the screen. 

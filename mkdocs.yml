@@ -3,8 +3,7 @@ nav:
   - Home: index.md
   - How Lepsta works: pages/lepsta/how-lepsta-works.md
   - Getting started:
-    - Installation: pages/installation.md
-  - Quick start:
+    - Setup: pages/setup.md
     - Your first repository: pages/quick-start/your-first-repository.md
   - Guides:
     - Create a branch: pages/guides/create-a-branch.md
@@ -31,6 +30,12 @@ extra_css:
   - stylesheets/extra.css
 markdown_extensions:
   - admonition
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.mark
+  - pymdownx.snippets
+  - pymdownx.betterem:
+      smart_enable: all
   - pymdownx.tasklist:
       custom_checkbox: true
 copyright: Copyright &copy; 2020 - 2025. Lepsta Inc. & Lepsta (Pty) Ltd.
