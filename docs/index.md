@@ -18,8 +18,8 @@ This website is still under development. Below is the checklist detailing the se
 
 * [x] Documentation website deployed
 * [x] Assembled a team of documentation developers
-* [ ] Documented basic "getting started" guides
-* [ ] Integrating Uju commandline reference
+* [x] Documented basic "getting started" guides
+* [x] Integrating Uju commandline reference
 * [ ] Migrated issue documentation from the blog
 * [ ] Hyperlinking existing content on other websites
 * [ ] Developing the Lepsta Platform changelog
