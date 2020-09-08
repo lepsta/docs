@@ -29,5 +29,5 @@ uju down <yourusername>/<reponame> <localpath>
 
 Once the repository is available on your development computer, you can open it using a code editor of your choice and start working.
 
-!!! failure "Did any of these steps fail?"
+!!! help "Did any of these steps fail?"
     Just in case some of these steps did not go according to documentation, consider making a search on the top bar to check if the issue and solution are documented.

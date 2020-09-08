@@ -59,5 +59,5 @@ For you to start working on your Lepsta repositories Uju needs to have access to
 uju login -u <username>
 ```
 
-!!! failure "Did any of these steps fail?"
-    Just in case some of these steps did not go according to documentation, consider making a search on the top bar to check if the issue and solution are documented.
+!!! help " Did any of these steps fail?"
+    Just in case some of these steps did not go according to documentation, consider making a search on the top bar to check if the issue and solution are documented. :smile:
