@@ -39,8 +39,8 @@ nav:
       - uju validate: pages/uju/cli/uju_validate.md
   - Known issues:
       - Uju is not running: pages/issues/uju-is-not-running.md
-      - Error-This repo is in an inconsistent state: pages/issues/Error:This-repo-is-in-an-inconsistent-state.md
-      - Error-Changes not showing on the platform: pages/issues/Error:changes-not-showing-on-the-platform.md
+      - Error-This repo is in an inconsistent state: pages/issues/error-this-repo-is-in-an-inconsistent-state.md
+      - Error-Changes not showing on the platform: pages/issues/error-changes-not-showing-on-the-platform.md
 
   - Changelog:
     - Changelog: pages/changelog
