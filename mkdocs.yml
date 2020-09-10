@@ -38,7 +38,10 @@ nav:
       - uju update: pages/uju/cli/uju_update.md
       - uju validate: pages/uju/cli/uju_validate.md
   - Known issues:
-    - Uju is not running: pages/issues/uju-is-not-running.md
+      - This repo is in an inconsistent state: pages/issues/error-this-repo-is-in-an-inconsistent-state.md
+      - Changes not showing on the platform: pages/issues/error-changes-not-showing-on-the-platform.md
+      - Too many open files: pages/issues/error-too-many-open-files.md
+
   - Changelog:
     - Changelog: pages/changelog
 theme:
@@ -72,4 +75,7 @@ markdown_extensions:
       smart_enable: all
   - pymdownx.tasklist:
       custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
 copyright: Copyright &copy; 2020 - 2025. Lepsta Inc. & Lepsta (Pty) Ltd.
