@@ -41,6 +41,7 @@ nav:
       - Uju is not running: pages/issues/uju-is-not-running.md
       - Error-This repo is in an inconsistent state: pages/issues/error-this-repo-is-in-an-inconsistent-state.md
       - Error-Changes not showing on the platform: pages/issues/error-changes-not-showing-on-the-platform.md
+      - Error-Too many open files: pages/issues/error-too-many-open-files.md
 
   - Changelog:
     - Changelog: pages/changelog
