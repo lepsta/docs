@@ -7,6 +7,7 @@ nav:
     - Your first repository: pages/quick-start/your-first-repository.md
   - Guides:
     - Create a branch: pages/guides/create-a-branch.md
+    - Contributors Guides: pages/guides/contributors.md
   - Uju:
     - What is Uju?: pages/uju/what-is-uju.md
     - CLI: 
