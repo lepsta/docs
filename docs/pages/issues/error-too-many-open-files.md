@@ -4,11 +4,11 @@ If you encounter this issue, you need to increase the limits on your operating s
 ![Repo in a bad state](/assets/images/too-many-files-open.svg)
 
 
-## **Why it happens?**
+## Why it happens?
 You might come across this error when you try to download a repository. This happens because Uju needs to watch your project for changes. To do this, it subscribes to file events emitted by the operating system. Usually, there are limits to how many files can be watched at the same time. And a lot of programs might rely on this feature.
 
 
-## **How to solve it?**
+## How to solve it?
 You would need to increase these limits on your development machine to work around this. Different operating systems have different settings to adjust this.
 
 === "Linux"

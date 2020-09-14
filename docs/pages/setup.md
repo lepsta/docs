@@ -8,7 +8,7 @@ To start using Lepsta, you need two things.
 This guide will help you set up both of these things.
 
 
-## **Create a Lepsta Platform account**
+## Create a Lepsta Platform account
 To create a new account, <a href="https://lepsta.tech/auth/signup" target="_blank">click here</a>. All you will need is your own email address, and a strong password.
 Alternatively, Lepsta lets you setup your account using third party authentication providers like Google, GitHub and Bitbucket.
 
@@ -16,14 +16,14 @@ Alternatively, Lepsta lets you setup your account using third party authenticati
     Authorising your development computers to access your Lepsta Platform account still requires that you set up a password. So, even if you sign up with an OAuth service provider, you will be asked to set up a password, even though this might change in the future.
 
 
-## **Install Uju**
+## Install Uju
 Uju is a version control server designed specifically to work with the Lepsta Platform. You need to have it installed to contribute to your repositories.
 
-### **System Requirements**
+### System Requirements
  - Linux, macOS or Windows operating system. (**mandatory**)
  - <a href="https://facebook.github.io/watchman/docs/install.html" target="_blank">Watchman</a> (**recommended**)
 
-### **Installation instructions**
+### Installation instructions
 
 === "Linux"
     Depending on your operating system, you might have `curl` or `wget` preinstalled.
