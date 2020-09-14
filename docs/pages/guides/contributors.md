@@ -19,7 +19,7 @@ Ensure you have the follwing packages installed on your computer and follow the 
 
 # How can I contribute
 ## Found a Bug?
-If you have found a bug in the source code, you can help us by submitting a pull request with a fix or _______. However before doing so, please read the submission guidelines. Also check this [list] (https://#) to avoid duplication of similar reports.
+If you have found a bug in the source code, you can help us by submitting a pull request with a fix or _______. However before doing so, please read the submission guidelines. Also check thiS [list] (https://#) to avoid duplication of similar reports.
 
 ## Request for a new feature?
 
