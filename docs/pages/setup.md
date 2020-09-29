@@ -49,12 +49,15 @@ Uju is a version control server designed specifically to work with the Lepsta Pl
 
 === "Windows"
 
-    !!! warning "We are working on the Windows version."
+    !!! warning "We are still working on the Windows version."
         We are still working on the Windows version and will make an announcement as soon as it is available.
-        However to get it working on windows you must activate the Windows Subsystem for Linux.
+        However, as a workaround, you can get it working on windows by activating the Windows Subsystem for Linux.
 
-    You must be on Windows 10 to activate Windows Subsystem for Linux for Uju to work.
+
     
+    ## Enable Windows Subsystem
+    You must be on Windows 10 to activate Windows Subsystem for Linux for Uju to work.
+
     
     Firstly, enable Windows Subsystem for Linux (WSL) using Settings. 
 
@@ -83,15 +86,19 @@ Uju is a version control server designed specifically to work with the Lepsta Pl
         See the troubleshooting instructions on  <a href="https://docs.microsoft.com/en-us/windows/wsl/install-win10https://docs.microsoft.com/en-us/windows/wsl/install-win10" target="_blank"> Microsoft Docs. </a>
     
     
-    Once you are done Installing Linux distros, Launch the linux distros that you installed eg. Ubuntu or Mint.
+
+    Once you have installed the Linux distro eg. Ubuntu or Mint, launch it.
     
     ![Launch the Linux distros](/assets/images/launch.png)
 
-    - Create a username for the Linux distro and press Enter.
-    - Specify a password for the distro and press Enter.
+    - Create a username for the Linux and press Enter.
+    - Specify a password and press Enter.
+
 
     ![Create a username and password](/assets/images/linux.PNG)
 
+
+    ## Setup Uju in your Linux distro
 
     You can install Uju by running one of these commands on your terminal.
         ```
