@@ -121,4 +121,4 @@ uju login -u <username>
 ```
 
 !!! attention "Attention: Did any of these steps fail?"
-    Just in case some of these steps did not go according to documentation, consider making a search on the top bar to check if the issue and solution are documented. :smile:
+    Just in case some of these steps did not go according to documentation, consider making a search on the top bar to check if the issue and solution are documented. 
