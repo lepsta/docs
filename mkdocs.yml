@@ -2,7 +2,6 @@ site_name: Lepsta Docs
 
 # Page tree
 nav:
-- Home: setup.md
   - Home: index.md
   - How Lepsta works: pages/lepsta/how-lepsta-works.md
   - Getting started:
