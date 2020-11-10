@@ -30,7 +30,7 @@ The site will run on `http://120.0.0.1:8000`.
 This is the easiest and probably most convenient way to run this projects. To use Docker, you first need to install it. You can follow these guides to do this: [https://docs.docker.com/engine/install/](https://docs.docker.com/engine/install/).
 
 
-Once Docker is running, you need to add the Docker run command as an alias. 
+Once Docker is running, you need to add the Docker run command as an alias. You only need to run the following steps once. After that, you will simply use `run-mkdocs` to run the project. 
 
 > **INFO:** An alias is like a shortcut command so that you do not have to remember the long version of the command.
 
