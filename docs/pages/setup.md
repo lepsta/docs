@@ -3,7 +3,7 @@
 To start using Lepsta, you need two things.
 
  - An account on the [Lepsta Platform](https://lepsta.tech/auth/signup).
- - A Linux, macOS or Windows computer running Uju (our version control tool).
+ - A Linux or macOS computer running Uju (our version control tool).
 
 This guide will help you set up both of these things.
 
@@ -20,7 +20,7 @@ Alternatively, Lepsta lets you setup your account using third party authenticati
 Uju is a version control server designed specifically to work with the Lepsta Platform. You need to have it installed to contribute to your repositories.
 
 ### System Requirements
- - Linux, macOS or Windows operating system. (**mandatory**)
+ - Linux or macOS operating system. (**mandatory**)
  - <a href="https://facebook.github.io/watchman/docs/install.html" target="_blank">Watchman</a> (**recommended**)
 
 ### Installation instructions
@@ -58,6 +58,8 @@ For you to start working on your Lepsta repositories Uju needs to have access to
 ```
 uju login -u <username>
 ```
+![Login from Uju on your command line!](/assets/images/login-lepsta.gif "Login from Uju")
+
 
 !!! attention "Attention: Did any of these steps fail?"
     Just in case some of these steps did not go according to documentation, consider making a search on the top bar to check if the issue and solution are documented. :smile:
