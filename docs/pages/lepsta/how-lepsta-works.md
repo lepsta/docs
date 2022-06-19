@@ -6,15 +6,15 @@ Lepsta is a very simple service to understand (on a high level).
 Lepsta provides a collaboration and automation service to developers through a cloud based platform structured in a 3-tiered architecture. Making up the tiers are two software parts that work together to make the service possible. This obviously excludes supporting services such as databases, caching applications and other general purpose parts.
 
 ### Uju (client)
-Uju (means Honey is Zulu), is a version control tool designed specifically for use with the Lepsta platform.
+Uju (means Honey in Zulu), is a version control tool designed specifically for use with the Lepsta platform.
 To use Lepsta, you need to download and install Uju on your development computer. Uju runs in the background, managing data syncing, networking, versioning and more. Since Uju always knows where your repositories are sitting, it can listen to the changes you are making to provide an automation interface that can be used to improve your workflows.
 
-### Platform (cloud)
+### Lepsta Platform (cloud)
 
 !!! note "Note"
-    Even though we refer to this platform as being on the cloud, there might be options to have it deployed in your own infrastructure. But for the purpose of creating a mental picture, we will use "the cloud" as an example here.
+    Even though we refer to this platform as being on the cloud, you have an options to have it deployed in your own infrastructure. But for the purpose of creating a mental picture, we will use "the cloud" as an example here.
 
-The online (cloud) platform is a managed application that allows developers to collaborate with one another. This is where developers can review each other's changes, manage their streams, accounts, access control and more. Repositories are created on this platform, then Uju clients are able to connect and synchronise changes over the internet.
+The Platform is a managed application that allows developers to collaborate with one another. This is where developers can review each other's changes, manage their streams, accounts, access control and more. Repositories are created on this platform, then Uju clients are able to connect and synchronise changes in real-time as you write code.
 To use Lepsta, you will need to [create an account](https://lepsta.tech/auth/signup).
 
 ### Uju (server)

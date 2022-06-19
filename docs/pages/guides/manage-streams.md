@@ -1,65 +1,42 @@
 # Manage streams
-Streams look like tasks but they are more than that. They are type of tasks that stream your work in real time as you contribute. When you make code changes locally they get channelled through a stream.
+This is where it gets exciting. Creating a stream means you are ready to stary working on your shiney project. This is where the power of Lepsta is maximized. We encourage you to start by planning your work by creating streams on the ``work`` tab as shown below:
 
-[Learn more about how streams work.](/pages/quick-start/how-streams-works)
+[Learn more about what streams are and how they work.](/pages/quick-start/how-streams-works)
 
-## Create a new stream
-To create a new stream, navigate to the ``work`` tab, this is where the whole team can organise the work they intend to do. 
+### Create a new stream
+To create a new stream, navigate to the ``work`` tab and follow the steps below:
 
 1.  Click the ``New Stream`` button to add your first stream.
-2.  Give your stream a name and provide more description about what the stream is about.
+2.  Give your stream a name and provide more description, where necessary, about what the stream is about.
+3.  Assign the stream to yourself or other people in your team by clicking on the ``Assignee
 
 
 ![Create a stream](/assets/images/create-new-stream.gif "new stream")
 
 !!! note "streams are for everyone"
-    Everyone can manage their work here including non-techinical people. Coding streams will be linked to a repository while and other streams can be treated as normal tasks. This is will help teams to organise work using on central tool.
+    For better visibility, your entire team, including non-techinical people can use Lepsta to manage their work. The difference between coding streams and non-coding streams is that coding streams require you to attach a repository while non-coding streams dont.
 
-You will notice that your first repository has the "Created" status. When you are ready to start working you can change the status of the task accordingly.
+### Attaching a repository to a stream
+For coding tasks you have to attach a repository to a stream so that the changes you make on the repository can be replicated to this stream. If you dont have a repository please check the ``manage-repository`` guide. Once you have done that, you can simply click this button to select a repository to attach to the stream you want to work on.
 
-![Stream list](/assets/images/stream-list.jpg "stream list")
+<add image>
 
+### Start working
+To get started with your coding task click the ``start coding`` button as shown below.
 
-## Working with streams
+### Editing code locally or online
+This is a crutial step as you are required to choose whether you want to edit your code locally or online. To edit code locally select ``edit locally``. This option will switch your streams from the default stream to the stream you want to work on. Once you have done that you can go to your repository locally and start coding using an IDE of your choice. Choosing the ``edit online`` option will let you code on your browser.
 
-!!! stream
-
-
-        ``` markdown title="Create a stream"
-        * Click on create stream button
-        * Give your stream a name
-        * Provide more descrption about the stream
-        ```
-
-
-        ``` markdown title="Assign stream to a team member"
-        *. To assign a stream, click on the assignee icon.
-        *. Select from the drop down of team members
-        *. Your selected member is now assigned
-        ```
-        ![Assign stream to a member](/assets/images/member-to-stream.gif "Assign stream to a member")
-
-
-      ``` markdown title="Assign stream to repository"
-      *. Make sure you have a repo attached to your workspace
-      *. Click on the repo icon
-      *. Select from the drop down list all the repos attached to your current workspace
-      *. Your desired repo is automatically attached
-      ```
-      ![Assign repo to a stream](/assets/images/assign-repo.gif "Assign repo to a stream")
-
-
-## Moving a stream
-A stream has four status it can be moved to.
-
-#### Created
-When streams are created, they are by default on the created block.
-#### Started
-When a stream has been assigned a repo and a user it can then be moved to the started block.
-#### Review
-After work has been done, streams are then moved to review. It is advised that the user of the stream review his work first.
-Reviews can be invited to make reviews on work that is ready for review.
-#### Done
-Streams are moved to done when all reviews, corrections, update and all work has been done on it.
+### Updating the status of a stream 
+You can simply change the status of your stream by clicking the ``Action`` button on the image below. 
 
 ![Moving a stream](/assets/images/stream-block.png "Assign repo to a stream")
+
+However, the status of coding streams get updated automatically as you work on your code. For instance when you start coding, the status will moved to ``started`` and when you request for a code review the status will move to ``Review`` and when you commit your changes the status will automaticall move to ``completed``. 
+
+### Updating the status of a stream 
+
+
+
+
+
